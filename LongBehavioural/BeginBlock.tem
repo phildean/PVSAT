@@ -1,0 +1,21 @@
+trial{
+   trial_duration = forever;
+   trial_type = first_response;
+   all_responses = true;
+   picture {
+				text $sbeginblock;
+            x = 0; y = 170;   
+            text Target_Sum;
+            x = 0; y = 0;
+            text First_Number;
+            x = 0; y = -100;
+            text Press_Button;
+            x = 0; y = -200;
+            
+   };
+   deltat = 25;
+   duration = response;
+
+   code = $scodebeginblock;  
+   
+} $eventbeginblock;

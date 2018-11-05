@@ -1,0 +1,18 @@
+trial{
+   trial_duration = forever;
+   trial_type = first_response;
+   all_responses = true;
+   picture {
+         text $stext; 
+         x = 0; y = 150;
+         text StartPVSAT2;
+         x = 0; y = 0;
+         text StartPVSAT3;
+         x = 0; y = -100;
+   };
+   deltat = 0;
+   duration = response;
+
+   code = $scode;  
+   
+}$IntroName;

@@ -1,0 +1,13 @@
+trial{
+   trial_duration = 1000;
+   all_responses = false;
+   picture {
+         text $stext; 
+         x = 0; y = 100;
+   };
+   deltat = 25;
+   duration = 1000;
+
+   code = $scode;  
+   
+}$IntroName;
